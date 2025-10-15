@@ -42,7 +42,7 @@ function App() {
         </div>
         <img
           src={DataImage.HeroImage}
-          alt="Hero Image"
+          alt="Main Image"
           className="w-[500px] rounded-4xl md:ml-auto"
         />
       </div>
@@ -73,13 +73,13 @@ function App() {
             <div className="flex items-center gap-6">
               <div>
                 <h1 className="text-4xl mb-1">
-                  10 <span className="text-violet-500">+</span>
+                  10 <span className="text-rose-600">+</span>
                 </h1>
                 <p>Proyek selesai</p>
               </div>
               <div className="felx items-center gap-6">
                 <h1 className="text-4xl mb-1">
-                  1 <span className="text-violet-500">+</span>
+                  1 <span className="text-rose-600">+</span>
                 </h1>
                 <p>Tahun Pengalaman</p>
               </div>
