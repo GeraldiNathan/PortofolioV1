@@ -1,7 +1,9 @@
 import HeroImage from "/assets/nathan.webp";
+import DinoImage from "/assets/dino.webp";
 
 const Image = {
   HeroImage,
+  DinoImage,
 };
 
 export default Image;
