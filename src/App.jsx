@@ -10,7 +10,12 @@ function App() {
             <img
               src={DataImage.DinoImage}
               alt="Dino Image"
-              className="w-7 rounded-md"
+              className="w-7 rounded-md sm:block hidden"
+            />
+            <img
+              src={DataImage.HeroImage}
+              alt="Dino Image"
+              className="w-7 rounded-xl sm:hidden block"
             />
             <q>Lorem ipsum dolor sit amet👏</q>
           </div>
@@ -43,7 +48,7 @@ function App() {
         <img
           src={DataImage.HeroImage}
           alt="Main Image"
-          className="w-[500px] rounded-4xl md:ml-auto"
+          className="w-[500px] rounded-[350px] hidden md:block md:ml-auto"
         />
       </div>
       {/* Hero Section */}
