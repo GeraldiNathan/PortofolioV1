@@ -54,44 +54,7 @@ function App() {
       {/* Hero Section */}
 
       {/* About Section */}
-      <div className="about mt-32 py-10">
-        <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rouded-lg">
-          <img
-            src={DataImage.DinoImage}
-            alt=""
-            className="w-12 rounded-md mb-10 sm:hidden"
-          />
-          <p className="text-base/loose mb-10 opacity-50">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo
-            corporis odio neque et eligendi saepe omnis autem? Temporibus, error
-            ex inventore dolorum aspernatur minus quas, optio pariatur ut
-            corporis asperiores recusandae, fugiat assumenda qui neque? Nihil
-            iste ipsa error dicta minima. Maxime fuga expedita vitae placeat
-            mollitia aliquam, quam hic.
-          </p>
-          <div className="flex items-center justify-between">
-            <img
-              src={DataImage.DinoImage}
-              alt="image"
-              className="w-12 rounded-md sm:block hidden"
-            />
-            <div className="flex items-center gap-6">
-              <div>
-                <h1 className="text-4xl mb-1">
-                  10 <span className="text-rose-600">+</span>
-                </h1>
-                <p>Proyek selesai</p>
-              </div>
-              <div className="felx items-center gap-6">
-                <h1 className="text-4xl mb-1">
-                  1 <span className="text-rose-600">+</span>
-                </h1>
-                <p>Tahun Pengalaman</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    
       {/* About Section */}
     </>
   );
