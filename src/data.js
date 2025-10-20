@@ -102,10 +102,6 @@ export const listTools = [
 
 import Proyek1 from "/assets/proyek/proyek1.webp";
 import Proyek2 from "/assets/proyek/proyek2.webp";
-// import Proyek3 from "/assets/proyek/proyek3.webp";
-// import Proyek4 from "/assets/proyek/proyek4.webp";
-// import Proyek5 from "/assets/proyek/proyek5.webp";
-// import Proyek6 from "/assets/proyek/proyek6.webp";
 
 export const listProyek = [
   {
@@ -124,36 +120,4 @@ export const listProyek = [
     tools: ["React JS", "Tailwind CSS", "Laravel 9", "AOS"],
     dad: "300",
   },
-  // {
-  //   id: 3,
-  //   image: Proyek3,
-  //   name: "Web Pernikahan 2.0",
-  //   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-  //   tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
-  //   dad: "400",
-  // },
-  // {
-  //   id: 4,
-  //   image: Proyek4,
-  //   name: "Website Course",
-  //   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-  //   tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
-  //   dad: "500",
-  // },
-  // {
-  //   id: 5,
-  //   image: Proyek5,
-  //   name: "Web Portfolio",
-  //   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-  //   tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
-  //   dad: "600",
-  // },
-  // {
-  //   id: 6,
-  //   image: Proyek6,
-  //   name: "Company Profile 2.0",
-  //   desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-  //   tools: ["NextJS", "TailwindCSS", "Framermotion"],
-  //   dad: "700",
-  // },
 ];
