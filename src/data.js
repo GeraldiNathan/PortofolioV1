@@ -82,20 +82,20 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.webp";
-import Proyek2 from "/assets/proyek/proyek2.webp";
+import Project1 from "/assets/projects/project1.webp";
+import Project2 from "/assets/projects/project2.webp";
 
-export const listProyek = [
+export const listProjects = [
   {
     id: 1,
-    image: Proyek1,
+    image: Project1,
     name: "Klinik Hewan",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["React JS", "Tailwind CSS", "Laravel 10", "AOS"],
   },
   {
     id: 2,
-    image: Proyek2,
+    image: Project2,
     name: "Ala Rumah Makan",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: ["React JS", "Tailwind CSS", "Laravel 9", "AOS"],
