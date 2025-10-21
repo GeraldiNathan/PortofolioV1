@@ -1,4 +1,5 @@
 import DataImage from "./data";
+import { listTools } from "./data";
 
 function App() {
   return (
@@ -54,7 +55,30 @@ function App() {
       {/* Hero Section */}
 
       {/* About Section */}
-    
+      <div className="tools mt-32">
+        <h1 className="text-4xl/snug font-bold mb-4">Skills</h1>
+        {/* <p className="w-full sm:w-3/4 md:w-2/3 lg:w/24 xl:w-2/5 text-base/loose opacity-50">
+            Tech Stack and Tools
+          </p> */}
+        <div className="tools-box mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          {listTools.map((tool) => (
+            <div
+              className="group flex items-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800"
+              key={tool.id}
+            >
+              <img
+                src={tool.image}
+                alt="Tools Image"
+                className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900"
+              />
+              <div>
+                <h4 className="font-bold">{tool.name}</h4>
+                <p className="opacity-50">{tool.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
       {/* About Section */}
     </>
   );
