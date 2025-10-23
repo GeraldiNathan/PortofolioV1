@@ -1,5 +1,5 @@
 import DataImage from "./data";
-import { listTools } from "./data";
+import { listTools, listProjects } from "./data";
 
 function App() {
   return (
@@ -53,6 +53,57 @@ function App() {
         />
       </div>
       {/* Hero Section */}
+
+      {/* Project Section */}
+      <div className="project mt-32 py-10">
+        <h1 className="text-4xl font-bold mb-4">Projects</h1>
+        {/* <p className="w-full sm:w-3/4 md:w-2/3 lg:w/24 xl:w-2/5 text-base/loose opacity-50">
+          Beberapa proyek yang telah saya kerjakan sejauh ini </p> */}
+        <div className="project-box mt-4 gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ">
+          {listProjects.map((project) => (
+            <div
+              key={project.id}
+              className="border border-zinc-600 rounded-4xl"
+            >
+              <img
+                src={project.image}
+                alt="gambar"
+                className="h-72 w-full overflow-hidden object-cover rounded-t-4xl"
+              />
+              <div className="p-4">
+                <h1 className="text-2xl font-bold my-4">{project.name}</h1>
+                <p className="text-base/loose mb-4">{project.desc}</p>
+                <div className="flex flex-wrap gap-3">
+                  {project.tools.map((tools, index) => (
+                    <p
+                      key={index}
+                      className="py-1 px-3 border bg-zinc-600 border-zinc-500 rounded-md font-semibold"
+                    >
+                      {tools}
+                    </p>
+                  ))}
+                </div>
+
+                <div className="mt-8 text-center flex items-center gap-2">
+                  <a
+                    href="#"
+                    className="bg-zinc-500 p-3 rounded-lg block border border-zinc-700 hover:bg-zinc-600"
+                  >
+                    Live Demo
+                  </a>
+                  <a
+                    href="#"
+                    className="bg-zinc-500 p-3 rounded-lg block border border-zinc-700 hover:bg-zinc-600"
+                  >
+                    Source Code
+                  </a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      {/* Project Section */}
 
       {/* About Section */}
       <div className="tools mt-32">
