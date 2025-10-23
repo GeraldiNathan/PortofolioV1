@@ -36,13 +36,13 @@ function App() {
               href="#"
               className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"
             >
-              Download CV <i className="ri-download-line ri-lg"></i>
+              View CV <i class="ri-download-cloud-2-line"></i>
             </a>
             <a
               href="#"
               className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"
             >
-              Lihat Proyek <i class="ri-arrow-down-line ri-lg"></i>
+              View Portfolio in PDF <i class="ri-file-text-line"></i>
             </a>
           </div>
         </div>
