@@ -23,7 +23,7 @@ function App() {
           <h1 className="text-5xl/tight font-bold mb-6">
             Halo, Saya Geraldi Nathan Tommy Saputra
           </h1>
-          <p className="text-base/loose mb-6 opacity-50">
+          <p className="text-base/loose mb-6 opacity-50 text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vel
             at asperiores aliquam hic tenetur illum iste. Amet consequatur
             deleniti odio possimus non quis sit at asperiores fugit illo
