@@ -84,20 +84,46 @@ export const listTools = [
 
 import Project1 from "/assets/projects/project1.webp";
 import Project2 from "/assets/projects/project2.webp";
+import Project3 from "/assets/projects/project3.webp";
+import Project4 from "/assets/projects/project2.webp";
+import Project5 from "/assets/projects/project5.webp";
 
 export const listProjects = [
   {
     id: 1,
     image: Project1,
-    name: "Klinik Hewan",
+    name: "Pawspital",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["React JS", "Tailwind CSS", "Laravel 10", "AOS"],
+    tools: ["React JS", "Tailwind CSS", "Laravel 10"],
   },
   {
     id: 2,
     image: Project2,
-    name: "Ala Rumah Makan",
+    name: "Ala Rumah",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["React JS", "Tailwind CSS", "Laravel 9", "AOS"],
+    tools: ["React JS", "Tailwind CSS", "Laravel 9"],
+  },
+  {
+    id: 3,
+    image: Project3,
+    name: "NovaTech Company Profile",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    tools: ["Figma"],
+  },
+  {
+    id: 4,
+    image: Project4,
+    name: "Go Hike App",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    tools: ["Figma"],
+  },
+  {
+    id: 5,
+    image: Project5,
+    name: "Website Portfolio v1",
+    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    tools: ["React JS", "Vite JS", "Tailwind CSS"],
   },
 ];
+
+
