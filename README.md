@@ -1,4 +1,4 @@
-# Portofoli v1
+# Portfolio v1
 
 this is my first portfolio website. There are still a few things that on progress and will be updated as soon as possible.
 
