@@ -126,4 +126,8 @@ export const listProjects = [
   },
 ];
 
-
+export const socialMediaLinks = {
+  github: "https://github.com/geraldinathan",
+  linkeding: "https://www.linkedin.com/in/geraldinathan/",
+  instagram: "https://www.instagram.com/geraldinathan_/",
+};
