@@ -126,8 +126,7 @@ export const listProjects = [
   },
 ];
 
-export const socialMediaLinks = {
-  github: "https://github.com/geraldinathan",
-  linkeding: "https://www.linkedin.com/in/geraldinathan/",
-  instagram: "https://www.instagram.com/geraldinathan_/",
+export const porfolioInfo = {
+  cv: "https://drive.google.com/file/d/17F7WvJBkBKA5jnzS-ABddtYBLkODKi4X/view?usp=sharing",
+  portoPdf: "https://drive.google.com/file/d/1ZmOkycYtTDMNYvGNu2R7DJITjqlKE7f8/view?usp=sharing"
 };
