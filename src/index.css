@@ -9,4 +9,21 @@
 @theme {
   --color-dark: #1e201e;
   --color-light: #ffff;
+
+  /* Keyframes wiggle*/
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(3deg);
+    }
+    75% {
+      transform: rotate(-3deg);
+    }
+  }
+
+  --animate-wiggle: wiggle 0.5s ease-in-out infinite;
+  /* Keyframes wiggle*/
 }
