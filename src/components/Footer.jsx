@@ -1,3 +1,5 @@
+import { socialMediaLinks } from "../data";
+
 export const Footer = () => {
   return (
     <div className="py-8 mt-9">
@@ -7,13 +9,13 @@ export const Footer = () => {
           <p className="font-bold font-title">Geraldi Nathan - Copyright 2025</p>
         </div>
         <div className="flex flex-wrap gap-3">
-          <a href="#" target="_blank">
+          <a href={socialMediaLinks.github} target="_blank">
             <i className="ri-github-fill ri-2x cursor-pointer"></i>
           </a>
-          <a href="#" target="_blank">
+          <a href={socialMediaLinks.linkedin} target="_blank">
             <i className="ri-linkedin-fill ri-2x cursor-pointer"></i>
           </a>
-          <a href="#" target="_blank">
+          <a href={socialMediaLinks.instagram} target="_blank">
             <i className="ri-instagram-fill ri-2x cursor-pointer"></i>
           </a>
         </div>
