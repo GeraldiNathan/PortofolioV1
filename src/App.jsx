@@ -81,12 +81,12 @@ function App() {
                 <p className="text-base/loose mb-4">{project.desc}</p>
                 <div className="flex flex-wrap gap-3">
                   {project.tools.map((tools, index) => (
-                    <p
+                    <img
+                      src={tools}
                       key={index}
-                      className="py-1 px-3 border bg-zinc-600 border-zinc-500 rounded-md font-semibold"
-                    >
-                      {tools}
-                    </p>
+                      alt="Tech Stack"
+                      className=" border-zinc-500 rounded-md font-semibold w-6"
+                    ></img>
                   ))}
                 </div>
 
