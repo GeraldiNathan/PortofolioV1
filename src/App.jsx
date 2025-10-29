@@ -1,5 +1,6 @@
 import DataImage from "./data";
-import { listTools, listProjects } from "./data";
+import { listTools, listProjects, porfolioInfo } from "./data";
+import "../src/index.css";
 
 function App() {
   return (
@@ -18,12 +19,15 @@ function App() {
               alt="Dino Image"
               className="w-7 rounded-xl sm:hidden block"
             />
-            <q>Lorem ipsum dolor sit amet👏</q>
+            <q>
+              Front End Developer | Website Developer
+              <span className="animate-wiggle inline-block">💻</span>
+            </q>
           </div>
           <h1 className="text-5xl/tight font-bold mb-6">
             Halo, Saya Geraldi Nathan Tommy Saputra
           </h1>
-          <p className="text-base/loose mb-6 opacity-50 text-justify">
+          <p className="text-base/loose mb-6 text-justify">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vel
             at asperiores aliquam hic tenetur illum iste. Amet consequatur
             deleniti odio possimus non quis sit at asperiores fugit illo
@@ -33,13 +37,15 @@ function App() {
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href="#"
+              href={porfolioInfo.cv}
+              target="_blank"
               className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"
             >
               View CV <i class="ri-download-cloud-2-line"></i>
             </a>
             <a
-              href="#"
+              href={porfolioInfo.portoPdf}
+              target="_blank"
               className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"
             >
               View Portfolio in PDF <i class="ri-file-text-line"></i>
