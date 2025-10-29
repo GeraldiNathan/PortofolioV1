@@ -8,75 +8,75 @@ const Image = {
 
 export default Image;
 
-import Tools1 from "/assets/tools/vscode.png";
-import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/nextjs.png";
-import Tools4 from "/assets/tools/tailwind.png";
-import Tools5 from "/assets/tools/bootstrap.png";
-import Tools6 from "/assets/tools/js.png";
-import Tools7 from "/assets/tools/nodejs.png";
-import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/canva.png";
-import Tools10 from "/assets/tools/figma.png";
+import VSCode from "/assets/tools/vscode.png";
+import ReactJS from "/assets/tools/reactjs.png";
+import NextJS from "/assets/tools/nextjs.png";
+import TailwindCSS from "/assets/tools/tailwind.png";
+import Bootstrap from "/assets/tools/bootstrap.png";
+import Javascript from "/assets/tools/js.png";
+import NodeJS from "/assets/tools/nodejs.png";
+import Github from "/assets/tools/github.png";
+import Canva from "/assets/tools/canva.png";
+import Figma from "/assets/tools/figma.png";
 
 export const listTools = [
   {
     id: 1,
-    image: Tools1,
+    image: VSCode,
     name: "Visual Studio Code",
     desc: "Code Editor",
   },
   {
     id: 2,
-    image: Tools2,
+    image: ReactJS,
     name: "React JS",
     desc: "Framework",
   },
   {
     id: 3,
-    image: Tools3,
+    image: NextJS,
     name: "Next JS",
     desc: "Framework",
   },
   {
     id: 4,
-    image: Tools4,
+    image: TailwindCSS,
     name: "Tailwind CSS",
     desc: "Framework",
   },
   {
     id: 5,
-    image: Tools5,
+    image: Bootstrap,
     name: "Bootstrap",
     desc: "Framework",
   },
   {
     id: 6,
-    image: Tools6,
+    image: Javascript,
     name: "Javascript",
     desc: "Language",
   },
   {
     id: 7,
-    image: Tools7,
+    image: NodeJS,
     name: "Node JS",
     desc: "Javascript Runtime",
   },
   {
     id: 8,
-    image: Tools8,
+    image: Github,
     name: "Github",
     desc: "Repository",
   },
   {
     id: 9,
-    image: Tools9,
+    image: Canva,
     name: "Canva",
     desc: "Design App",
   },
   {
     id: 10,
-    image: Tools10,
+    image: Figma,
     name: "Figma",
     desc: "Design App",
   },
@@ -101,7 +101,7 @@ export const listProjects = [
     image: Project2,
     name: "Ala Rumah",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["React JS", "Tailwind CSS", "Laravel 9"],
+    tools: [ReactJS, TailwindCSS],
   },
   {
     id: 3,
@@ -128,7 +128,8 @@ export const listProjects = [
 
 export const porfolioInfo = {
   cv: "https://drive.google.com/file/d/17F7WvJBkBKA5jnzS-ABddtYBLkODKi4X/view?usp=sharing",
-  portoPdf: "https://drive.google.com/file/d/1ZmOkycYtTDMNYvGNu2R7DJITjqlKE7f8/view?usp=sharing"
+  portoPdf:
+    "https://drive.google.com/file/d/1ZmOkycYtTDMNYvGNu2R7DJITjqlKE7f8/view?usp=sharing",
 };
 
 export const socialMediaLinks = {
