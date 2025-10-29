@@ -18,6 +18,8 @@ import NodeJS from "/assets/tools/nodejs.png";
 import Github from "/assets/tools/github.png";
 import Canva from "/assets/tools/canva.png";
 import Figma from "/assets/tools/figma.png";
+import Laravel from "/assets/tools/laravel.png";
+import ViteJS from "/assets/tools/vite.png";
 
 export const listTools = [
   {
@@ -79,6 +81,18 @@ export const listTools = [
     image: Figma,
     name: "Figma",
     desc: "Design App",
+  },
+  {
+    id: 11,
+    image: Laravel,
+    name: "Laravel",
+    desc: "Framework",
+  },
+  {
+    id: 12,
+    image: ViteJS,
+    name: "Vite JS",
+    desc: "Framework",
   },
 ];
 
