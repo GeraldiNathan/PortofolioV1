@@ -13,11 +13,13 @@ function App() {
               src={DataImage.DinoImage}
               alt="Dino Image"
               className="w-7 rounded-md sm:block hidden"
+              loading="lazy"
             />
             <img
               src={DataImage.HeroImage}
               alt="Dino Image"
               className="w-7 rounded-xl sm:hidden block"
+              loading="lazy"
             />
             <q>
               Front End Developer | Website Developer
@@ -56,6 +58,7 @@ function App() {
           src={DataImage.HeroImage}
           alt="Main Image"
           className="w-[500px] rounded-[350px] hidden md:block md:ml-auto"
+          loading="lazy"
         />
       </div>
       {/* Hero Section */}
@@ -86,6 +89,7 @@ function App() {
                       key={index}
                       alt="Tech Stack"
                       className=" border-zinc-500 rounded-md font-semibold w-6"
+                      loading="lazy"
                     ></img>
                   ))}
                 </div>
@@ -127,6 +131,7 @@ function App() {
                 src={tool.image}
                 alt="Tools Image"
                 className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900"
+                loading="lazy"
               />
               <div>
                 <h4 className="font-bold">{tool.name}</h4>
