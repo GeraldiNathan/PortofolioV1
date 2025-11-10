@@ -109,7 +109,7 @@ export const listProjects = [
     name: "Pawspital",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: [ReactJS, TailwindCSS, Laravel],
-    src: "https://github.com/GeraldiNathan/Pawspital"
+    src: "https://github.com/GeraldiNathan/Pawspital",
   },
   {
     id: 2,
@@ -142,7 +142,7 @@ export const listProjects = [
 ];
 
 export const porfolioInfo = {
-  cv: "https://drive.google.com/file/d/17F7WvJBkBKA5jnzS-ABddtYBLkODKi4X/view?usp=sharing",
+  cv: "https://drive.google.com/file/d/1grxsXPoS9gGzYaZpVi82EeAE8qr_U34-/view?usp=sharing",
   portoPdf:
     "https://drive.google.com/file/d/1ZmOkycYtTDMNYvGNu2R7DJITjqlKE7f8/view?usp=sharing",
 };
