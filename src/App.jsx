@@ -102,7 +102,8 @@ function App() {
                     Live Demo
                   </a>
                   <a
-                    href="#"
+                    href={project.src}
+                    target="_blank"
                     className="bg-zinc-500 p-3 rounded-lg block border border-zinc-700 hover:bg-zinc-600"
                   >
                     Source Code
