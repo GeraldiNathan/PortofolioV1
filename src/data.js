@@ -139,6 +139,7 @@ export const listProjects = [
     name: "Website Portfolio v1",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: [ReactJS, ViteJS, TailwindCSS],
+    src: "https://github.com/GeraldiNathan/PortofolioV1",
   },
 ];
 
