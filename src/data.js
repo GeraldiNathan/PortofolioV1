@@ -109,6 +109,7 @@ export const listProjects = [
     name: "Pawspital",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: [ReactJS, TailwindCSS, Laravel],
+    src: "https://github.com/GeraldiNathan/Pawspital"
   },
   {
     id: 2,
