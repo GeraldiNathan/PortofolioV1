@@ -117,6 +117,7 @@ export const listProjects = [
     name: "Ala Rumah",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
     tools: [ReactJS, TailwindCSS, Laravel],
+    src: "https://github.com/orgs/zippweb/repositories",
   },
   {
     id: 3,
