@@ -135,8 +135,7 @@ function App() {
                 loading="lazy"
               />
               <div>
-                <h4 className="font-bold">{tool.name}</h4>
-                <p className="opacity-50">{tool.desc}</p>
+                <h4 className="font-medium">{tool.name}</h4>
               </div>
             </div>
           ))}
