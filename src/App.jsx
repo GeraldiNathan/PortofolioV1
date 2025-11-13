@@ -79,7 +79,9 @@ function App() {
               />
               <div className="p-4">
                 <h1 className="text-2xl font-bold my-4">{project.name}</h1>
-                <p className="text-base/loose mb-4">{project.desc}</p>
+                <p className="text-base/loose mb-4 text-justify">
+                  {project.desc}
+                </p>
                 <div className="flex flex-wrap gap-3">
                   {project.tools.map((tools, index) => (
                     <img
