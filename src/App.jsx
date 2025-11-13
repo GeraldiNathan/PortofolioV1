@@ -27,15 +27,13 @@ function App() {
             </q>
           </div>
           <h1 className="text-5xl/tight font-bold mb-6">
-            Halo, Saya Geraldi Nathan Tommy Saputra
+            HI, I'M GERALDI NATHAN TOMMY SAPUTRA
           </h1>
           <p className="text-base/loose mb-6 text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vel
-            at asperiores aliquam hic tenetur illum iste. Amet consequatur
-            deleniti odio possimus non quis sit at asperiores fugit illo
-            nesciunt, quia, numquam quibusdam enim laborum sunt quo ex minus
-            dignissimos. Accusantium magni placeat autem ipsam, fuga laborum
-            corrupti eius recusandae?
+            I'm a Web Developer. I have a a experience in building websites and
+            web applications using various technologies such as React.js, and
+            more. I enjoy creating user friendly and visually appealing websites
+            that provide a seamless user experience.
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
