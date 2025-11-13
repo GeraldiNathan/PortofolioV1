@@ -64,8 +64,6 @@ function App() {
       {/* Project Section */}
       <div className="project mt-32 py-10">
         <h1 className="text-4xl font-bold mb-4">Projects</h1>
-        {/* <p className="w-full sm:w-3/4 md:w-2/3 lg:w/24 xl:w-2/5 text-base/loose opacity-50">
-          Beberapa proyek yang telah saya kerjakan sejauh ini </p> */}
         <div className="project-box mt-4 gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ">
           {listProjects.map((project) => (
             <div
@@ -119,9 +117,6 @@ function App() {
       {/* About Section */}
       <div className="tools mt-32">
         <h1 className="text-4xl/snug font-bold mb-4">Skills</h1>
-        {/* <p className="w-full sm:w-3/4 md:w-2/3 lg:w/24 xl:w-2/5 text-base/loose opacity-50">
-            Tech Stack and Tools
-          </p> */}
         <div className="tools-box mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {listTools.map((tool) => (
             <div
