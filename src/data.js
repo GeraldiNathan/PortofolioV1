@@ -137,7 +137,7 @@ export const listProjects = [
     id: 5,
     image: Project5,
     name: "Website Portfolio v1",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desc: "A personal web portfolio built with React and Tailwind CSS to showcase projects, technical skills, and professional background in a modern, responsive design.",
     tools: [ReactJS, ViteJS, TailwindCSS],
     src: "https://github.com/GeraldiNathan/PortofolioV1",
   },
