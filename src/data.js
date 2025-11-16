@@ -115,7 +115,7 @@ export const listProjects = [
     id: 2,
     image: Project2,
     name: "Ala Rumah",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desc: "A web based culinary platform built as a final college project at Universitas Muhammadiyah Malang, enabling users to share, explore, and manage homemade recipes efficiently.",
     tools: [ReactJS, TailwindCSS, Laravel],
     src: "https://github.com/orgs/zippweb/repositories",
   },
