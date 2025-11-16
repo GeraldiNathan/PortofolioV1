@@ -123,7 +123,7 @@ export const listProjects = [
     id: 3,
     image: Project3,
     name: "NovaTech Company Profile",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desc: "UI/UX design for NovaTech’s company profile website, focusing on visual branding consistency and user-friendly navigation using Figma.",
     tools: [Figma],
   },
   {
