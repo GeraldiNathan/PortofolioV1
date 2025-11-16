@@ -107,7 +107,7 @@ export const listProjects = [
     id: 1,
     image: Project1,
     name: "Pawspital",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desc: "A veterinary clinic management system developed as a final project at PT Otak Kanan.",
     tools: [ReactJS, TailwindCSS, Laravel],
     src: "https://github.com/GeraldiNathan/Pawspital",
   },
