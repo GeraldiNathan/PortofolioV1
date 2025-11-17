@@ -130,7 +130,7 @@ export const listProjects = [
     id: 4,
     image: Project4,
     name: "Go Hike App",
-    desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    desc: "A mobile app prototype designed to help users discover hiking trails, track their journey, and share outdoor experiences with the community.",
     tools: [Figma],
   },
   {
