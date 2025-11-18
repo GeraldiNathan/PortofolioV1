@@ -99,7 +99,7 @@ export const listTools = [
 import Project1 from "/assets/projects/project1.webp";
 import Project2 from "/assets/projects/project2.webp";
 import Project3 from "/assets/projects/project3.webp";
-import Project4 from "/assets/projects/project2.webp";
+// import Project4 from "/assets/projects/project2.webp";
 import Project5 from "/assets/projects/project5.webp";
 
 export const listProjects = [
