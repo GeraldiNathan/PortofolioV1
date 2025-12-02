@@ -22,7 +22,7 @@ function App() {
               loading="lazy"
             />
             <q>
-              Front End Developer | Website Developer
+              Front End Developer | Website Developer | IT Enthusiast
               <span className="animate-wiggle inline-block">💻</span>
             </q>
           </div>
