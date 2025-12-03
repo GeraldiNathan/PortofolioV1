@@ -115,7 +115,7 @@ function App() {
       {/* Project Section */}
 
       {/* About Section */}
-      <div className="tools mt-32">
+      <div className="tools mt-32" id="Skills">
         <h1 className="text-4xl/snug font-bold mb-4">Skills</h1>
         <div className="tools-box mt-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {listTools.map((tool) => (
