@@ -62,7 +62,7 @@ function App() {
       {/* Hero Section */}
 
       {/* Project Section */}
-      <div className="project mt-32 py-10" id="Projects">
+      <div className="project mt-32 py-10" id="Project">
         <h1 className="text-4xl font-bold mb-4">Projects</h1>
         <div className="project-box mt-4 gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ">
           {listProjects.map((project) => (
