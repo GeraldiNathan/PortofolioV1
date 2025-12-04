@@ -17,7 +17,7 @@ export const Navbar = () => {
         <li>
           <a
             href="#Home"
-            className="sm:text-lg text-basefont-medium hidden sm:block"
+            className="sm:text-lg text-base font-medium hidden sm:block"
             aria-label="Home Section"
           >
             Home
