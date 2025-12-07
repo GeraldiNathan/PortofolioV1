@@ -55,7 +55,7 @@ function App() {
         <img
           src={DataImage.HeroImage}
           alt="Main Image"
-          className="w-[500px] rounded-[350px] hidden md:block md:ml-auto"
+          className="w-[500px] rounded-2xl hidden md:block md:ml-auto"
           loading="lazy"
         />
       </div>
