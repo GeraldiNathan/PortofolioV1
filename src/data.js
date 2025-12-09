@@ -146,7 +146,7 @@ export const listProjects = [
 export const porfolioInfo = {
   cv: "https://drive.google.com/file/d/1grxsXPoS9gGzYaZpVi82EeAE8qr_U34-/view?usp=sharing",
   portoPdf:
-    "https://drive.google.com/file/d/1ZmOkycYtTDMNYvGNu2R7DJITjqlKE7f8/view?usp=sharing",
+    "https://drive.google.com/file/d/1KmnxSED28sCUaS45QD65J8cl-LYV7u6k/view?usp=sharing",
 };
 
 export const socialMediaLinks = {
