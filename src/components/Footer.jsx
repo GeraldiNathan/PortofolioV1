@@ -7,7 +7,7 @@ export const Footer = () => {
       <div className="flex justify-between gap-4">
         <div className="mt-2">
           <p className="font-bold font-title">
-            Geraldi Nathan - Copyright 2025
+            Geraldi Nathan - Copyright 2026
           </p>
         </div>
         <div className="flex gap-3">
