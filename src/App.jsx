@@ -130,7 +130,8 @@ function App() {
                 src={tool.image}
                 alt="Tools Image"
                 className="w-14 bg-zinc-800 p-1 group-hover:bg-zinc-900"
-                loading="lazy"
+                loading="eager"
+                fetchPriority="high"
               />
               <div>
                 <h4 className="font-medium">{tool.name}</h4>
