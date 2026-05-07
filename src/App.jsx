@@ -6,7 +6,10 @@ function App() {
   return (
     <>
       {/* Hero Section */}
-      <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1" id="Home">
+      <div
+        className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1"
+        id="Home"
+      >
         <div>
           <div className="flex items-center gap-3 mb-6 bg-zinc-700 w-fit p-4 rounded-2xl">
             <img
@@ -64,20 +67,20 @@ function App() {
       {/* Project Section */}
       <div className="project mt-32 py-10" id="Project">
         <h1 className="text-4xl font-bold mb-4">Projects</h1>
-        <div className="project-box mt-4 gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 ">
+        <div className="project-box mt-4 gap-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {listProjects.map((project) => (
             <div
               key={project.id}
-              className="border border-zinc-600 rounded-4xl"
+              className="border border-zinc-600 rounded-4xl flex flex-col h-full overflow-hidden"
             >
               <img
                 src={project.image}
                 alt="gambar"
                 className="h-72 w-full overflow-hidden object-cover rounded-t-4xl"
               />
-              <div className="p-4">
+              <div className="p-4 flex flex-col flex-1">
                 <h1 className="text-2xl font-bold my-4">{project.name}</h1>
-                <p className="text-base/loose mb-4 text-justify">
+                <p className="text-base/loose mb-4 text-justify flex-1">
                   {project.desc}
                 </p>
                 <div className="flex flex-wrap gap-3">
@@ -92,7 +95,7 @@ function App() {
                   ))}
                 </div>
 
-                <div className="mt-8 text-center flex items-center gap-2">
+                <div className="mt-8 text-center flex gap-2">
                   <a
                     href="#"
                     className="bg-zinc-500 p-3 rounded-lg block border border-zinc-700 hover:bg-zinc-600"
