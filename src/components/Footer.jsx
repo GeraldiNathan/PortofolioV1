@@ -3,7 +3,7 @@ import { socialMediaLinks } from "../data";
 export const Footer = () => {
   return (
     <div className="py-8 my-9">
-      <div className="h-0.5 bg-white"></div>
+      <div className="h-0.5 dark:bg-white bg-zinc-700"></div>
       <div className="flex justify-between gap-4">
         <div className="mt-2">
           <p className="font-bold font-title">
