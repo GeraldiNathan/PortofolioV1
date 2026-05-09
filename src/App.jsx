@@ -7,11 +7,11 @@ function App() {
     <>
       {/* Hero Section */}
       <div
-        className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1"
+        className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1 text-black dark:text-white transition-colors duration-300"
         id="Home"
       >
         <div>
-          <div className="flex items-center gap-3 mb-6 bg-zinc-700 w-fit p-4 rounded-2xl">
+          <div className="flex items-center gap-3 mb-6 bg-zinc-200 text-black dark:bg-zinc-700 dark:text-white w-fit p-4 rounded-2xl">
             <img
               src={DataImage.DinoImage}
               alt="Dino Image"
