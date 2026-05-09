@@ -1,10 +1,32 @@
+import { useEffect, useState } from "react";
+
 export const Navbar = () => {
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme");
+
+    if (savedTheme === "dark") {
+      document.documentElement.classList.add("dark");
+      setDarkMode(true);
+    }
+  }, []);
+
+  // Toggle Dark Mode
+  const handleDarkMode = () => {
+    document.documentElement.classList.toggle("dark");
+    const isDark = document.documentElement.classList.contains("dark");
+    setDarkMode(isDark);
+
+    localStorage.setItem("theme", isDark ? "dark" : "light");
+  };
+
   return (
     <div className="navbar md:py-4 flex items-center justify-between sticky top-0 md:backdrop-blur-3xl">
       <div className="logo">
         <h1
           className="text-3xl font-bold p-1 
-        md:bg-transparent md:text-white md:opacity-100 md:top-0 hidden md:block"
+        md:bg-transparent dark:text-white  md:opacity-100 md:top-0 hidden md:block"
         >
           N/G
         </h1>
@@ -62,6 +84,17 @@ export const Navbar = () => {
             Contact
           </a>
         </li>
+
+        {/* Dark Mode Toggle */}
+        <li>
+          <button onClick={handleDarkMode} type="button">
+            {/* <i className="ri-moon-line ri-2x cursor-pointer"></i> */}
+            <i
+              className={`${darkMode ? "ri-moon-line" : "ri-sun-line"} ri-xl cursor-pointer`}
+            ></i>
+          </button>
+        </li>
+        {/* Dark Mode Toggle */}
       </ul>
     </div>
   );
