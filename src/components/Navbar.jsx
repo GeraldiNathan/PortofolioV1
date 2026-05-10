@@ -22,7 +22,7 @@ export const Navbar = () => {
   };
 
   return (
-    <div className="navbar md:py-4 flex items-center justify-between sticky top-0 md:backdrop-blur-3xl">
+    <div className="navbar md:py-4 flex items-center justify-between sticky top-0 md:backdrop-blur-3xl z-10">
       <div className="logo">
         <h1
           className="text-3xl font-bold p-1 
