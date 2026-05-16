@@ -26,7 +26,7 @@ export const Navbar = () => {
       <div className="logo">
         <h1
           className="text-3xl font-bold p-1 
-        md:bg-transparent dark:text-white  md:opacity-100 md:top-0 hidden md:block"
+        md:bg-transparent dark:text-white md:opacity-100 md:top-0 hidden md:block"
         >
           N/G
         </h1>
