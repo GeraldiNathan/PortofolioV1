@@ -32,7 +32,7 @@ export const Navbar = () => {
         </h1>
       </div>
       <ul
-        className="menu bg-zinc-800 flex flex-wrap justify-between fixed bottom-0 left-1/2 -translate-x-1/2 md:-translate-0 
+        className="menu dark:bg-zinc-800 bg-zinc-100 flex flex-wrap justify-between fixed bottom-0 left-1/2 -translate-x-1/2 md:-translate-0 
         md:sticky md:top-0 items-center md:gap-10 md:opacity-100 w-full md:w-fit px-4 py-2 md:py-4 rounded-tl-2xl rounded-tr-2xl 
         md:bg-transparent transition-all md:transition-none"
       >
