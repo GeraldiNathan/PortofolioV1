@@ -259,7 +259,7 @@ function App() {
                 <div className="mt-4">
                   <button
                     type="submit"
-                    className="bg-white hover:bg-gray-200 text-black py-2 px-4 rounded"
+                    className="bg-dark text-white hover:bg-zinc-700 dark:text-black dark:bg-white dark:hover:bg-gray-200  py-2 px-4 rounded"
                   >
                     Send Message
                   </button>
