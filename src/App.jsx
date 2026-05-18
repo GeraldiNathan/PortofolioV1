@@ -1,4 +1,4 @@
-import DataImage from "./data";
+import DataImage, { socialMediaLinks } from "./data";
 import { listTools, listProjects, porfolioInfo } from "./data";
 import "../src/index.css";
 
@@ -141,6 +141,136 @@ function App() {
         </div>
       </div>
       {/* About Section */}
+
+      {/* Contact Section */}
+      <div className="contact mt-32 mb-10" id="Contact">
+        {/* Contact Headline */}
+        <div className="mb-10 text-black dark:text-white">
+          <h2 className="text-4xl/snug font-bold mb-4">Get In Touch</h2>
+          <p className="ml-1">
+            Feel free to reach out - Open for discussions new opportunities,
+            projects etc!
+          </p>
+        </div>
+        {/* Contact Headline */}
+
+        {/* Contact Info */}
+        <div className=" gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="flex flex-col gap-2 p-4 rounded-2xl text-white border border-zinc-600 ">
+              <div className="">
+                <h1 className="text-4xl font-bold text-black dark:text-white">
+                  Connect With Me
+                </h1>
+                <p className="text-black dark:text-white">
+                  Find me on this platform
+                </p>
+              </div>
+
+              <div className="grid gap-4 grid-cols-1 w-full h-full">
+                <a
+                  href={socialMediaLinks.github}
+                  className="border border-zinc-600 rounded-md p-3 text-black dark:text-white items-center flex gap-4 hover:bg-zinc-800"
+                  target="_blank"
+                >
+                  <i className="ri-github-line"></i>
+                  Github
+                </a>
+                <a
+                  href={socialMediaLinks.linkedin}
+                  className="border border-zinc-600  rounded-md p-3 text-black dark:text-white items-center flex gap-4 hover:bg-zinc-800"
+                  target="_blank"
+                >
+                  <i className="ri-linkedin-line"></i>
+                  Linkedin
+                </a>
+                <a
+                  href={socialMediaLinks.instagram}
+                  className="border border-zinc-600  rounded-md p-3 text-black dark:text-white items-center flex gap-4 hover:bg-zinc-800"
+                  target="_blank"
+                >
+                  <i className="ri-instagram-line"></i>
+                  Instagram
+                </a>
+              </div>
+
+              <div className="border border-zinc-600 p-4 rounded-md text-black dark:text-white">
+                <div className="flex items-center gap-4">
+                  <div>
+                    <i className="ri-mail-line"></i>
+                  </div>
+                  <div className="flex flex-col gap-2 ">
+                    <div>
+                      <h1 className="font-medium text-sm">Prefer Email?</h1>
+                    </div>
+
+                    <div className="text-sm mt-1">
+                      <p>reach out me at</p>
+                      <p className="hover:underline cursor-pointer">
+                        gnathansaputra@gmail.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* Contact Info */}
+
+            {/* Message Form */}
+            <div className="flex flex-col h-auto gap-4 p-4 border border-zinc-600 rounded-2xl">
+              <div className="text-black dark:text-white">
+                <div className="text-4xl font-bold">Send Message</div>
+                <div>I'll get back to you soon!</div>
+              </div>
+
+              <div className="text-black dark:text-white p-6">
+                <div className="">
+                  <div className="grid">
+                    <label htmlFor="email">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="email@example.com"
+                      className="border border-zinc-700 p-3 rounded-md w-full"
+                    />
+                  </div>
+
+                  <div className="grid mt-6">
+                    <label htmlFor="name">name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      placeholder="Name"
+                      className="border border-zinc-700 p-3 rounded-md w-full"
+                    />
+                  </div>
+                </div>
+
+                <div className="grid mt-6">
+                  <label htmlFor="message">Message</label>
+                  <textarea
+                    id="message"
+                    rows="4"
+                    placeholder="Your message here..."
+                    className="border border-zinc-700 p-3 rounded-md w-full resize-none"
+                  ></textarea>
+                </div>
+
+                <div className="mt-4">
+                  <button
+                    type="submit"
+                    className="bg-white hover:bg-gray-200 text-black py-2 px-4 rounded"
+                  >
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </div>
+            {/* Message Form */}
+          </div>
+        </div>
+      </div>
+      {/* Contact Section */}
     </>
   );
 }
