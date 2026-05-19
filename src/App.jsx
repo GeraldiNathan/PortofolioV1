@@ -107,14 +107,14 @@ function App() {
                       setShowModal(true);
                     }}
                     href="#"
-                    className="bg-zinc-500 p-3 rounded-lg block border border-zinc-700 hover:bg-zinc-600"
+                    className="dark:bg-zinc-800 dark:text-white text-black p-3 rounded-lg block border border-zinc-700 hover:bg-zinc-700 hover:text-white"
                   >
                     Live Demo
                   </a>
                   <a
                     href={project.src}
                     target="_blank"
-                    className="bg-zinc-500 p-3 rounded-lg block border border-zinc-700 hover:bg-zinc-600"
+                    className="dark:bg-zinc-800 dark:text-white text-black p-3 rounded-lg block border border-zinc-700 hover:bg-zinc-700 hover:text-white"
                   >
                     Source Code
                   </a>
