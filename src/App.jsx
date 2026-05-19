@@ -54,7 +54,7 @@ function App() {
             <a
               href={porfolioInfo.portoPdf}
               target="_blank"
-              className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"
+              className="bg-zinc-700 text-white p-4 rounded-2xl hover:bg-zinc-600"
             >
               View Portfolio in PDF <i class="ri-file-text-line"></i>
             </a>
