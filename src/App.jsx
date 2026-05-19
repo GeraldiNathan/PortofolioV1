@@ -1,8 +1,13 @@
+import React, { useState } from "react";
 import DataImage, { socialMediaLinks } from "./data";
 import { listTools, listProjects, porfolioInfo } from "./data";
 import "../src/index.css";
+import { Truck } from "lucide-react";
+import Modal from "./components/Modal";
 
 function App() {
+  const [showModal, setShowModal] = useState(false);
+
   return (
     <>
       {/* Hero Section */}
@@ -259,10 +264,20 @@ function App() {
                 <div className="mt-4">
                   <button
                     type="submit"
+                    onClick={() => setShowModal(true)}
                     className="bg-dark text-white hover:bg-zinc-700 dark:text-black dark:bg-white dark:hover:bg-gray-200  py-2 px-4 rounded"
                   >
                     Send Message
                   </button>
+
+                  {/* Modal */}
+                  <Modal
+                    isOpen={showModal}
+                    onClose={() => setShowModal(false)}
+                    title="Sorry, this feature is currently unavailable!"
+                    desc="feel free to reach out to me through email or social media. Thank you for your understanding!"
+                  />
+                  {/* Modal */}
                 </div>
               </div>
             </div>
