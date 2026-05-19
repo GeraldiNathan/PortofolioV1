@@ -102,6 +102,10 @@ function App() {
 
                 <div className="mt-8 text-center flex gap-2">
                   <a
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setShowModal(true);
+                    }}
                     href="#"
                     className="bg-zinc-500 p-3 rounded-lg block border border-zinc-700 hover:bg-zinc-600"
                   >
