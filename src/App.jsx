@@ -179,7 +179,7 @@ function App() {
               <div className="grid gap-4 grid-cols-1 w-full h-full">
                 <a
                   href={socialMediaLinks.github}
-                  className="border border-zinc-600 rounded-md p-3 text-black dark:text-white items-center flex gap-4 hover:bg-zinc-800"
+                  className="border border-zinc-600 rounded-md p-3 text-black dark:text-white items-center flex gap-4 dark:hover:bg-zinc-800 hover:bg-gray-300"
                   target="_blank"
                 >
                   <i className="ri-github-line"></i>
@@ -187,7 +187,7 @@ function App() {
                 </a>
                 <a
                   href={socialMediaLinks.linkedin}
-                  className="border border-zinc-600  rounded-md p-3 text-black dark:text-white items-center flex gap-4 hover:bg-zinc-800"
+                  className="border border-zinc-600  rounded-md p-3 text-black dark:text-white items-center flex gap-4 dark:hover:bg-zinc-800 hover:bg-gray-300"
                   target="_blank"
                 >
                   <i className="ri-linkedin-line"></i>
@@ -195,7 +195,7 @@ function App() {
                 </a>
                 <a
                   href={socialMediaLinks.instagram}
-                  className="border border-zinc-600  rounded-md p-3 text-black dark:text-white items-center flex gap-4 hover:bg-zinc-800"
+                  className="border border-zinc-600  rounded-md p-3 text-black dark:text-white items-center flex gap-4 dark:hover:bg-zinc-800 hover:bg-gray-300"
                   target="_blank"
                 >
                   <i className="ri-instagram-line"></i>
