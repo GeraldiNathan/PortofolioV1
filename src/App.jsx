@@ -47,7 +47,8 @@ function App() {
             <a
               href={porfolioInfo.cv}
               target="_blank"
-              className="bg-zinc-700 text-white p-4 rounded-2xl hover:bg-zinc-600"
+              className="bg-zinc-200 text-black dark:bg-zinc-700 dark:text-white 
+              dark:hover:bg-zinc-600 hover:bg-gray-300 p-4 rounded-2xl"
             >
               View CV <i class="ri-download-cloud-2-line"></i>
             </a>
