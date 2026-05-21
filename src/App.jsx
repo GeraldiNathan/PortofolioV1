@@ -271,8 +271,9 @@ function App() {
                   <button
                     type="submit"
                     onClick={() => setShowModal(true)}
-                    className="bg-dark text-white hover:bg-zinc-700 dark:text-black dark:bg-white dark:hover:bg-gray-200  py-2 px-4 rounded"
+                    className="bg-dark text-white hover:bg-zinc-700 dark:text-black dark:bg-white dark:hover:bg-gray-200 p-2 rounded flex items-center gap-2"
                   >
+                    <i className="ri-send-plane-line"></i>
                     Send Message
                   </button>
 
