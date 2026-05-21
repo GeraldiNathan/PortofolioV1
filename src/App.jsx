@@ -166,15 +166,15 @@ function App() {
         {/* Contact Headline */}
 
         {/* Contact Info */}
-        <div className=" gap-6">
+        <div className="">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="flex flex-col gap-2 p-4 rounded-2xl text-white border border-zinc-600 ">
-              <div className="">
+              <div className="p-6">
                 <h1 className="text-4xl font-bold text-black dark:text-white">
                   Connect With Me
                 </h1>
                 <p className="text-black dark:text-white">
-                  Find me on this platform
+                  Find me on these platforms!
                 </p>
               </div>
 
@@ -210,7 +210,7 @@ function App() {
                   <div>
                     <i className="ri-mail-line"></i>
                   </div>
-                  <div className="flex flex-col gap-2 ">
+                  <div className="flex flex-col gap-2">
                     <div>
                       <h1 className="font-medium text-sm">Prefer Email?</h1>
                     </div>
