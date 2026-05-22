@@ -230,11 +230,11 @@ function App() {
             {/* Message Form */}
             <div className="flex flex-col h-auto p-4 border border-zinc-600 rounded-2xl">
               <div className="text-black dark:text-white p-6">
-                <div className="text-4xl font-bold gap-2 flex items-center">
+                <div className="text-lg md:text-4xl font-bold gap-2 flex items-center">
                   <i className="ri-send-plane-line"></i>
                   Send Message
                 </div>
-                <div>I'll get back to you soon!</div>
+                <div className="text-sm">I'll get back to you soon!</div>
               </div>
 
               <div className="text-black dark:text-white p-6">
