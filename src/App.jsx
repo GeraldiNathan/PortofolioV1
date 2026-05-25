@@ -170,9 +170,10 @@ function App() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="flex flex-col gap-2 p-4 rounded-2xl text-white border border-zinc-600 ">
               <div className="p-6">
-                <h1 className="text-lg md:text-4xl font-bold text-black dark:text-white">
+                <div className="text-lg md:text-4xl font-bold text-black dark:text-white flex items-center gap-2  ">
+                  <i class="ri-chat-4-line"></i>
                   Connect With Me
-                </h1>
+                </div>
                 <p className="text-black dark:text-white text-sm">
                   Find me on these platforms!
                 </p>
