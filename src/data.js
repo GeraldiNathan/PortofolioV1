@@ -126,13 +126,6 @@ export const listProjects = [
     desc: "UI/UX design for NovaTech’s company profile website, focusing on visual branding consistency and user-friendly navigation using Figma.",
     tools: [Figma],
   },
-  // {
-  //   id: 4,
-  //   image: Project4,
-  //   name: "Go Hike App",
-  //   desc: "A mobile app prototype designed to help users discover hiking trails, track their journey, and share outdoor experiences with the community.",
-  //   tools: [Figma],
-  // },
   {
     id: 5,
     image: Project5,
