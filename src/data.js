@@ -135,6 +135,48 @@ export const listProjects = [
   },
 ];
 
+import Labit from "/assets/company/labit.svg";
+import PTOK from "/assets/company/ptok.jpg";
+import GTM from "/assets/company/gtm.png";
+
+export const workExperience = [
+  {
+    id: 1,
+    company: "Informatics Laboratory Assistant - Part Time",
+    title: "Research and Development",
+    logo: [Labit],
+    period: "August 2022 - August 2025",
+  },
+  {
+    id: 2,
+    company: "PT OTAK KANAN - Apprentice",
+    title: "Web Developer",
+    logo: [PTOK],
+    period: "Feb 2024 - June 2024",
+  },
+  {
+    id: 3,
+    company: "Hotel Grand Tiga Mustika - Full Time",
+    title: "Information Technology Staff",
+    logo: [GTM],
+    period: "April 2026 - Present",
+  },
+  // {
+  //   id: 3,
+  //   company: "Hotel Grand Tiga Mustika - Full Time",
+  //   title: "Information Technology Staff",
+  //   logo: [GTM],
+  //   period: "April 2026 - Present",
+  // },
+  // {
+  //   id: 3,
+  //   company: "Hotel Grand Tiga Mustika - Full Time",
+  //   title: "Information Technology Staff",
+  //   logo: [GTM],
+  //   period: "April 2026 - Present",
+  // },
+];
+
 export const porfolioInfo = {
   cv: "https://drive.google.com/file/d/1grxsXPoS9gGzYaZpVi82EeAE8qr_U34-/view?usp=sharing",
   portoPdf:
